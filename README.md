@@ -6,7 +6,7 @@ this is web crawler for [zhihu.com](http://zhihu.com)
 
 the crawler use __Redis__ for checking the url has been crawled or not,and use __mongodb__ for storing data.
 
-if you wanna print out the data,run:
+if you do not wanna print out the data,run:
 
     python engine.py --mongo
 
